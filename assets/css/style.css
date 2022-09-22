@@ -1,14 +1,15 @@
+/* adding css to all contain in webpages */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   flex: auto;
 }
-
+/* adding background color to body part  */
 body {
   background-color: #d9dcd6;
 }
-
+/* adding features to header  */
 .heading {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,16 +17,18 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* h1 kept inline block and set fon size  */
 .heading h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* seo class set color  */
 .heading h1 .seo {
   color: #d9dcd6;
 }
 
+/* adding navigation bar  features */
 .heading nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,10 +37,11 @@ body {
   font-size: 20px;
 }
 
+/* list style to ul  */
 .heading nav ul {
   list-style-type: none;
 }
-
+/* display in inline block */
 .heading nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -47,11 +51,11 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* font size to p tag */
 p {
   font-size: 16px;
 }
-
+/* adding background image section  */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,23 +64,23 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* image postion */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* image postion */
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* inline block for content class Seo  */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/* aside properties */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -136,6 +140,7 @@ p {
   max-width: 150px;
 }
 
+/* .search-engine-optimization properties */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -144,7 +149,7 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+/* online-reputation-management properties */
 .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
@@ -163,10 +168,11 @@ p {
   color: #ffffff;
 }
 
+/* height of .search-engine-optimization image  */
 .search-engine-optimization img {
   max-height: 200px;
 }
-
+/* height of .online-reputation-management image  */
 .online-reputation-management img {
   max-height: 200px;
 }
@@ -179,7 +185,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* adding h2 properties */
 .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -189,7 +195,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* footer css  */
 .footer {
   padding: 30px;
   clear: both;
@@ -197,7 +203,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* h2 in footer css  */
 .footer h2 {
   font-size: 20px;
 }
