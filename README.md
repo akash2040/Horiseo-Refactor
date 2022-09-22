@@ -60,10 +60,10 @@ Software need to be install
 
 1. Setup SSH key
 2. Git clone to terminal or gitbash
-   [link](git@github.com:akash2040/Horiseo-Refactor.git)
+   (git@github.com:akash2040/Horiseo-Refactor.git)
 3. Enter github password
 
-### Project is ready to use.Open index.html to default browser
+### Project is ready to use Open index.html to default browser
 
 ## Author Links
 
