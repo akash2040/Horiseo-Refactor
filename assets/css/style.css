@@ -2,13 +2,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  flex: auto;
 }
 
 body {
   background-color: #d9dcd6;
 }
 
-.header {
+.heading {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -16,16 +17,16 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+.heading h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+.heading h1 .seo {
   color: #d9dcd6;
 }
 
-.header nav {
+.heading nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,11 +34,11 @@ body {
   font-size: 20px;
 }
 
-.header nav ul {
+.heading nav ul {
   list-style-type: none;
 }
 
-.header nav ul li {
+.heading nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
